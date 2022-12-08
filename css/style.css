@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     background-color: #FFFFFF;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 html,body {
@@ -55,15 +55,16 @@ header {
 .header_icons {
     height: 100%;
     width: 100%;
-        background-color: transparent;
+    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: end;
 }
 
-.header_icons i {
-    font-size: 2rem;
+.header_icons img {
+    height: 100%;
+    width: 80px;
     margin: 0 2rem;
     background-color: transparent;
     cursor: pointer;
@@ -72,10 +73,6 @@ header {
 
 .header_icons div {
     background-color: transparent;
-}
-
-.header_icons i:hover {
-    color: white;
 }
 
 .container-root {
