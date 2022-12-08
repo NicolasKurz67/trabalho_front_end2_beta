@@ -84,7 +84,7 @@ header {
     flex-direction: column;
 }
 
-.article_rectangle {
+.div_rectangle {
     width: 100%;
     margin-bottom: 1.25rem;
     display: flex;
@@ -98,13 +98,13 @@ header {
     width: 100%;
 }
 
-.rectangle_content {
+.rectangle-content {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-.rectangle_content img {
+.rectangle-content img {
     width: 20rem;
     border: 1px solid black;
 }
@@ -139,7 +139,7 @@ header {
     justify-content: space-between;
 }
 
-.block-content-top {
+.bloco-content-top {
     height: 42%;
     width: 100%;
     display: flex;
@@ -147,12 +147,12 @@ header {
     border: 1px solid black;
 }
 
-.block-left, .block-right {
+.bloco-esquerdo, .bloco-direito {
     height: 100%;
     width: 49%;
 }
 
-.block-left {
+.bloco-esquerdo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -160,7 +160,7 @@ header {
     padding: 2rem;
 }
 
-.block-left p {
+.bloco-esquerdo p {
     font-size: 1rem;
     margin: 1rem 0;
     font-weight: bold;
@@ -168,21 +168,21 @@ header {
     background-color: transparent;
 }
 
-.block-left ul {
+.bloco-esquerdo ul {
     display: flex;
     flex-direction: column;
 }
 
-.block-left li {
+.bloco-esquerdo li {
     display: flex;
     align-items: center;
 }
 
-.block-left span {
+.bloco-esquerdo span {
     margin: 0 1rem;
 }
 
-.block-right img{
+.bloco-direito img{
     height: 100%;
     width: 100%;
 }
@@ -191,7 +191,7 @@ header {
     display: none;
 }
 
-.block-content-down {
+.bloco-content-down {
     height: 57%;
     width: 100%;
 }
@@ -204,7 +204,7 @@ header {
     justify-content: space-between;
 }
 
-.card-content {
+.cartao-content {
     margin: 0.1rem 0;
     height: 200px;
     width: 100%;
@@ -213,34 +213,34 @@ header {
     border: 1px solid black;
 }
 
-.card-content img {
+.cartao-content img {
     height: 100%;
     width: 22%;
     border: 1px solid black;
 }
 
-.card-content-text {
+.cartao-content-text {
     width: 100%;
     padding: 1rem;
     display: flex;
     flex-direction: column;
 }
 
-.card-content-text ul {
+.cartao-content-text ul {
     display: flex;
     flex-direction: column;
 }
 
-.card-content-text li {
+.cartao-content-text li {
     display: flex;
     align-items: center;
 }
 
-.card-content-text span {
+.cartao-content-text span {
     margin: 0 1rem;
 }
 
-.card-content-text p {
+.cartao-content-text p {
     font-size: 1rem;
     font-weight: bold;
     text-align: justify;
@@ -273,11 +273,11 @@ header {
         background-color: transparent;
     }
 
-    .rectangle_content {
+    .rectangle-content {
         background-color: transparent;
     }
 
-    .rectangle_content img {
+    .rectangle-content img {
         height: 100px;
         width: 150px;
     }
@@ -307,7 +307,7 @@ header {
         background-color: transparent;
     }
 
-    .block-content-top {
+    .bloco-content-top {
         width: 100%;
         height: 50%;
         display: flex;
@@ -316,12 +316,12 @@ header {
         justify-content: space-between;
     }
     
-    .block-left, .block-right {
+    .bloco-esquerdo, .bloco-direito {
         width: 100%;
         background-color: transparent;
     }
     
-    .block-left {
+    .bloco-esquerdo {
         height: 45%;
         display: flex;
         align-items: center;
@@ -329,23 +329,23 @@ header {
         
     }
     
-    .block-left p {
+    .bloco-esquerdo p {
         margin: 1rem 0;
         font-size: normal;
         text-align: justify;
         background-color: transparent;
     }
 
-    .block-right {
+    .bloco-direito {
         height: 55%;
     }
 
-    .block-right img{
+    .bloco-direito img{
         height: 100%;
         width: 100%;
     }
 
-    .block-content-down {
+    .bloco-content-down {
         height: 50%;
         width: 100%;
         background-color:transparent;
@@ -360,7 +360,7 @@ header {
         background-color: transparent;
     }
     
-    .card-content {
+    .cartao-content {
         margin: 0;
         height: 25%;
         width: 100%;
@@ -368,12 +368,12 @@ header {
         flex-direction: row;
     }
     
-    .card-content img {
+    .cartao-content img {
         height: 100%;
         width: 30%;
     }
     
-    .card-content-text {
+    .cartao-content-text {
         height: 100%;
         width: 100%;
         padding: 1rem;
@@ -383,7 +383,7 @@ header {
         background-color: transparent;
     }
     
-    .card-content-text, .card-content-text p, .card-content-text span, .card-content-text ul, .card-content-text li {
+    .cartao-content-text, .cartao-content-text p, .cartao-content-text span, .cartao-content-text ul, .cartao-content-text li {
         font-size: 14px;
         background-color: transparent;
         text-align: justify;
